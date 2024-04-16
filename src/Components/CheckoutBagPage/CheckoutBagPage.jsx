@@ -81,37 +81,6 @@ const CheckoutBagPage = () => {
                 </div>
             </div>
         </div>
-
-
-        // <div className="bag">
-        //     <div className="content-frame">
-        //         <div className="Header">
-        //             <h1>Check Your Bag Items</h1>
-        //         </div>
-        //         <div className="bag-content">
-        //             <div className="item-in-bag">
-        //                 <div className="product-img"></div>
-        //                 <div className="content-area">
-        //                     <div className="item-header">
-        //                         <div className="item-title"></div>
-        //                         <div className="item-subtitle"></div>
-        //                     </div>
-        //                     <div className="description">
-        //                         <p>small description on product</p>
-        //                     </div>
-        //                     <div className="rating">
-        //                         <div className="stars"></div>
-        //                         <div className="out-of-five"></div>
-        //                     </div>
-        //                     <div className="price-rating">
-        //                         <div className="price"></div>
-        //                         <div className="quantity"></div>
-        //                     </div>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </div>
     )
 }
 
