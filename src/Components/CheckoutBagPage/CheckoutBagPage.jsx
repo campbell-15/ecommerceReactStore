@@ -13,8 +13,8 @@ const CheckoutBagPage = () => {
             price: "$1799.99",
             quantity: 1,
             image: "/src/Assets/ProductImages/Name=Dell-XPS-13-White.png"
-            },
-            {
+        },
+        {
             id: 2,
             title: "Iphone 11",
             subtitle: "Navy Blue",
@@ -23,7 +23,27 @@ const CheckoutBagPage = () => {
             price: "$729.99",
             quantity: 3,
             image: "/src/Assets/ProductImages/Name=Iphone-12-02.png"
-            },
+        },
+        {
+            id: 3,
+            title: "Iphone 11",
+            subtitle: "Milky White",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam ",
+            rating: 4.5,
+            price: "$729.99",
+            quantity: 3,
+            image: "/src/Assets/ProductImages/Name=Iphone-12-04.png"
+        },
+        {
+            id: 4,
+            title: "Iphone 11",
+            subtitle: "Navy Blue",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam ",
+            rating: 4.5,
+            price: "$619.99",
+            quantity: 1,
+            image: "/src/Assets/ProductImages/Name=Iphone-13-Pro-02.png"
+        }
             // Add more products as needed
         ]);
 
