@@ -1,59 +1,97 @@
 import React from 'react';
 import { useState } from "react";
+import './CheckoutBagPage.css';
 
 const CheckoutBagPage = () => {
-    const [products, setProducts] = useState([
+    const [products] = useState([
         {
             id: 1,
-            title: "Product 1",
-            subtitle: "Subtitle 1",
-            description: "Description of Product 1",
+            title: "Dell XPS 13",
+            subtitle: "White",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam ",
             rating: 4.5,
-            price: "$10",
-            image: "https://via.placeholder.com/100"
+            price: "$1799.99",
+            quantity: 1,
+            image: "/src/Assets/ProductImages/Name=Dell-XPS-13-White.png"
             },
             {
             id: 2,
-            title: "Product 2",
-            subtitle: "Subtitle 2",
-            description: "Description of Product 2",
-            rating: 3.8,
-            price: "$15",
-            image: "https://via.placeholder.com/100"
+            title: "Iphone 11",
+            subtitle: "Navy Blue",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam ",
+            rating: 4.5,
+            price: "$729.99",
+            quantity: 3,
+            image: "/src/Assets/ProductImages/Name=Iphone-12-02.png"
             },
             // Add more products as needed
         ]);
 
-        const handleQuantityChange = (productId, newQuantity) => {
-            setProducts(prevProducts =>
-                prevProducts.map(product =>
-                    product.id === productId ? { ...product, quantity: newQuantity } : product
-                )
-                );
-            };
-
     return (
-        <div className="check-your-bag-container">
-            <div className="bag-items">
-                {products.map((product) => (
-                <div key={product.id} className="product-card">
-                    <img src={product.image} alt={product.title} className="product-image" />
-                    <div className="product-details">
-                    <h2>{product.title}</h2>
-                    <h3>{product.subtitle}</h3>
-                    <p>{product.description}</p>
-                    <div className="rating">
-                        {product.rating}/5
-                    </div>
-                    <div className="price">
-                        <span>{product.price}</span>
-                        <input type="number" defaultValue={1} min={1} />
-                    </div>
+        <div className="bag">
+            <div className="content-frame">
+                <div className="Header">
+                    <h1>Check Your Bag Items</h1>
+                </div>
+                <div className="bag-content">
+                    {products.map(product => (
+                        <div key={product.id} className="item-in-bag">
+                            <div className="product-img">
+                                <img src={product.image} alt={product.title} />
+                            </div>
+                            <div className="content-area">
+                                <div className="item-header">
+                                    <div className="item-title">{product.title}</div>
+                                    <div className="item-subtitle">{product.subtitle}</div>
+                                </div>
+                                <div className="description">
+                                    <p>{product.description}</p>
+                                </div>
+                                <div className="rating">
+                                    <div className="stars"> {/* You can render stars here based on product.rating */}</div>
+                                    <div className="out-of-five">{product.rating}/5</div>
+                                </div>
+                                <div className="price-rating">
+                                    <div className="price">{product.price}</div>
+                                    <div className="quantity"><span>-</span>{product.quantity}<span>+</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
-            ))}
         </div>
-    </div>
+
+
+        // <div className="bag">
+        //     <div className="content-frame">
+        //         <div className="Header">
+        //             <h1>Check Your Bag Items</h1>
+        //         </div>
+        //         <div className="bag-content">
+        //             <div className="item-in-bag">
+        //                 <div className="product-img"></div>
+        //                 <div className="content-area">
+        //                     <div className="item-header">
+        //                         <div className="item-title"></div>
+        //                         <div className="item-subtitle"></div>
+        //                     </div>
+        //                     <div className="description">
+        //                         <p>small description on product</p>
+        //                     </div>
+        //                     <div className="rating">
+        //                         <div className="stars"></div>
+        //                         <div className="out-of-five"></div>
+        //                     </div>
+        //                     <div className="price-rating">
+        //                         <div className="price"></div>
+        //                         <div className="quantity"></div>
+        //                     </div>
+        //                 </div>
+        //             </div>
+        //         </div>
+        //     </div>
+        // </div>
     )
 }
 
