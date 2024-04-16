@@ -23,6 +23,15 @@ const CheckoutBagPage = () => {
             },
             // Add more products as needed
         ]);
+
+        const handleQuantityChange = (productId, newQuantity) => {
+            setProducts(prevProducts =>
+                prevProducts.map(product =>
+                    product.id === productId ? { ...product, quantity: newQuantity } : product
+                )
+                );
+            };
+
     return (
         <div className="check-your-bag-container">
             <div className="bag-items">
