@@ -16,8 +16,7 @@ const labels = {
     5: "5.0/5",
 };
 
-export default function TextRating() {
-    const value = 3.5;
+export default function TextRating({ value }) {
 
     return (
         <Box
@@ -33,6 +32,11 @@ export default function TextRating() {
             readOnly
             precision={0.5}
             emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />}
+            sx={{
+                "& .MuiRating-iconFilled": {
+                    color: "#105E46", // Set star color to #105E46
+                },
+            }}
         />
         <Box sx={{ ml: 2 }}>{labels[value]}</Box>
         </Box>
