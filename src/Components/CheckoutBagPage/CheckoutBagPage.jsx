@@ -13,7 +13,7 @@ const CheckoutBagPage = () => {
             rating: 4.5,
             price: "$1799.99",
             quantity: 1,
-            image: "/src/Assets/ProductImages/Name=Dell-XPS-13-White.png"
+            image: "/Assets/ProductImages/Name=Dell-XPS-13-White.png"
         },
         {
             id: 2,
@@ -23,7 +23,7 @@ const CheckoutBagPage = () => {
             rating: 4.5,
             price: "$729.99",
             quantity: 3,
-            image: "/src/Assets/ProductImages/Name=Iphone-12-02.png"
+            image: "/Assets/ProductImages/Name=Iphone-12-02.png"
         },
         {
             id: 3,
@@ -33,7 +33,7 @@ const CheckoutBagPage = () => {
             rating: 4.5,
             price: "$729.99",
             quantity: 3,
-            image: "/src/Assets/ProductImages/Name=Iphone-12-04.png"
+            image: "/Assets/ProductImages/Name=Iphone-12-04.png"
         },
         {
             id: 4,
@@ -43,7 +43,7 @@ const CheckoutBagPage = () => {
             rating: 4.5,
             price: "$619.99",
             quantity: 1,
-            image: "/src/Assets/ProductImages/Name=Iphone-13-Pro-02.png"
+            image: "/Assets/ProductImages/Name=Iphone-13-Pro-02.png"
         }
             // Add more products as needed
         ]);
