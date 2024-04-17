@@ -1,46 +1,85 @@
-body {
-    background-color: #edecec;
-}
-
 .bag {
-    display: flex;
-    justify-content: center; /* Slight off-center to the left */
-    margin-top: 20px; /* Adjust as needed */
+    /* display: flex;
+    justify-content: center; Slight off-center to the left */
+    width: 1440px;
+    height: 100%;
+    top: -529px;
+    left: 2519px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #EDECEC;
+
 }
 
 .content-frame {
-    width: 80%; /* Adjust the width of the content frame */
+    width: 60%;
+    height: 100%;
+    margin-left: 12rem;
+    padding: 48px 0px 0px 0px;
+    gap: 10px;
+    opacity: 0px;
+
+}
+
+.Header {
+    width: Hug (460px)px;
+    height: Hug (91px)px;
+    padding: 8px 8px 24px 8px;
+    gap: 16px;
+    opacity: 0px;
+}
+
+.header-h1 {
+    font-family: Cabin;
+    font-size: 48.83px;
+    font-weight: 400;
+    line-height: 59.33px;
+    text-align: left;
+    color: #1A1F16;
 }
 
 .bag-content {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Small gap between product cards */
+    width: 100%;
+    height: Hug (1,224px)px;
+    gap: 24px;
+    opacity: 0px;
 }
+
+
+
 
 .item-in-bag {
-    background-color: #FFFF;
-    width: 90%;
-    height: 288px;
-    border-radius: 21px;
     display: flex;
-    border: 1px solid black;
     justify-content: space-between;
-}
-
-.item-content {
-    display: flex;
-    align-items: center;
     width: 100%;
+    height: 100%;
+    left: 122px;
+    gap: 16px;
+    border-radius: 21px;
+    opacity: 0px;
+    background-color: #FFFFFF;
 }
 
 .product-img {
-    width: 30%; /* Adjust the width of the image */
+    width: 30%;
+    height: auto;
+    gap: 0px;
+    opacity: 0px;
+
+    /* width: 30%; */
 }
 
 .product-img img {
     width: 100%;
     height: auto;
+    top: -39.37px;
+    gap: 0px;
+    opacity: 0px;
+    /* width: 100%;
+    height: auto; */
 }
 
 .content-area {
@@ -48,13 +87,21 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-left: 20px; /* Gap between image and content */
-    height: 100%;
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    gap: 8px;
+    opacity: 0px;
+
 }
 
-/* .item-header {
-    margin-bottom: 10px;
-} */
+.item-header {
+    width: 100%;
+    height: auto;
+    gap: 8px;
+    opacity: 0px;
+
+}
 
 .item-title {
     font-size: 18px;
@@ -83,6 +130,7 @@ body {
 }
 
 .stars {
+    line-height: 10px;
     color: #12805D; /* Set the color of stars */
 }
 

@@ -70,7 +70,7 @@ const CheckoutBagPage = () => {
         <div className="bag">
             <div className="content-frame">
                 <div className="Header">
-                    <h1>Check Your Bag Items</h1>
+                    <h1 className='header-h1'>Check Your Bag Items</h1>
                 </div>
                 <div className="bag-content">
                     {products.map(product => (
