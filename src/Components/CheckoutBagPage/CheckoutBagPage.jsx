@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from "react";
 import './CheckoutBagPage.css';
+import TextRating from '../Rating/Rating';
 
 const CheckoutBagPage = () => {
     const [products] = useState([
@@ -47,25 +48,6 @@ const CheckoutBagPage = () => {
             // Add more products as needed
         ]);
 
-        const renderStars = (rating) => {
-            const fullStars = Math.floor(rating);
-            const hasHalfStar = rating % 1 !== 0;
-        
-            // Generate full stars
-            let stars = '★'.repeat(fullStars);
-        
-            // Add half star if applicable
-            if (hasHalfStar) {
-              stars += '½'; // Unicode character for half star
-            }
-        
-            // Add empty stars to complete to 5
-            const emptyStars = '☆'.repeat(5 - Math.ceil(rating));
-            stars += emptyStars;
-        
-            return stars;
-        };
-
     return (
         <div className="bag">
             <div className="content-frame">
@@ -87,8 +69,9 @@ const CheckoutBagPage = () => {
                                     <p>{product.description}</p>
                                 </div>
                                 <div className="rating">
-                                    <div className="stars"> {renderStars(product.rating)}</div>
-                                    <div className="out-of-five">{product.rating}/5</div>
+                                <TextRating value={product.rating} />
+                                    {/* <div className="stars"> {renderStars(product.rating)}</div>
+                                    <div className="out-of-five">{product.rating}/5</div> */}
                                 </div>
                                 <div className="price-rating">
                                     <div className="price">{product.price}</div>
