@@ -20,10 +20,10 @@ const CheckoutBagPage = () => {
             title: "Iphone 11",
             subtitle: "Navy Blue",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam ",
-            rating: 4.5,
+            rating: 4.0,
             price: 729.99,
             quantity: 3,
-            image: "/Assets/ProductImages/Name=Iphone-12-02.png"
+            image: "/Assets/ProductImages/Name=Iphone-12-Pro-02.png"
         },
         {
             id: 3,
