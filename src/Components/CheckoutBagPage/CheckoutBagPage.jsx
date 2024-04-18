@@ -70,8 +70,6 @@ const CheckoutBagPage = () => {
                                 </div>
                                 <div className="rating">
                                 <TextRating value={product.rating} />
-                                    {/* <div className="stars"> {renderStars(product.rating)}</div>
-                                    <div className="out-of-five">{product.rating}/5</div> */}
                                 </div>
                                 <div className="price-rating">
                                     <div className="price">{product.price}</div>

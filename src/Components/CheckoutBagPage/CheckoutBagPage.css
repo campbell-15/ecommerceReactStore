@@ -173,12 +173,18 @@ body {
 
 .quantity {
     margin-left: auto; /* Add spacing between price and quantity */
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
 }
 
 .minus {
     color: #E5252C;
+    margin: 0 20px;
 }
 
 .addition {
     color: #02D693;
+    margin: 0 20px;
 }
