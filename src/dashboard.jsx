@@ -6,6 +6,9 @@ import menue from './Assets/Menu-Icon.png'
 import home from './Assets/Nav-Link.png'
 import bag from './Assets/bag.png'
 import logout from './Assets/rednextbutton.png'
+import applewatch from './Assets/apple-watch.png'
+import headphones from './Assets/headphones.png'
+import buttoncart from './Assets/Buttoncart.png'
 
 function Dashboard() {
 
@@ -56,9 +59,9 @@ function Dashboard() {
 
                  <div className="ItemCard">
                     <div className="ProductImage">
-                        <div className="ProductImageInner">
-                        <img className="Image" src="https://via.placeholder.com/159x200" />
-                        </div>
+                        {/* <div className="ProductImageInner"> */}
+                        <img className="Image" src={applewatch} alt='' />
+                        {/* </div> */}
                     </div>
                     <div className="Content">
                         <div className="ItemName">Apple Watch</div>
@@ -66,9 +69,9 @@ function Dashboard() {
                         <div className="Action">
                         <div className="Price">$ 529.99</div>
                         <div className="Button">
-                            <div className="Icon">
-                            <div className="Vector"></div>
-                            </div>
+                            <img  src={buttoncart} alt=''>
+                            {/* <div className="Vector"></div> */}
+                            </img>
                         </div>
                         </div>
                     </div>
@@ -76,9 +79,9 @@ function Dashboard() {
 
                     <div className="ItemCard">
                     <div className="ProductImage">
-                        <div className="ProductImageInner">
-                        <img className="Image" src="https://via.placeholder.com/159x200" />
-                        </div>
+                        {/* <div className="ProductImageInner"> */}
+                        <img className="Image" src={headphones} alt='' />
+                        {/* </div> */}
                     </div>
                     <div className="Content">
                         <div className="ItemName">Apple Watch</div>

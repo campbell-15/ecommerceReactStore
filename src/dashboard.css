@@ -1,6 +1,7 @@
 .Body{
   
     background: #EDEDED;
+    font-family: cabin;
 
   }
 
@@ -219,12 +220,14 @@
     left: 150px;
   }
   
+
+
   .ItemCard {
     width: 223.36px;
     height: 397px;
     padding: 16px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 22px;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    /* border-radius: 22px; */
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -275,7 +278,7 @@
     color: #1A1F16;
     font-size: 20px;
     font-family: 'Cabin';
-    font-weight: 500;
+    font-weight: 700;
     word-wrap: break-word;
   }
   
@@ -283,7 +286,7 @@
     color: #60695C;
     font-size: 16px;
     font-family: 'Cabin';
-    font-weight: 400;
+    font-weight: 500;
     word-wrap: break-word;
   }
   
@@ -299,7 +302,7 @@
     color: #1A1F16;
     font-size: 20px;
     font-family: 'Cabin';
-    font-weight: 500;
+    font-weight: 700;
     word-wrap: break-word;
   }
   
@@ -314,12 +317,12 @@
     gap: 8px;
   }
   
-  .Icon {
+  /* .Icon {
     width: 18px;
     height: 18px;
     position: relative;
   }
-  
+   */
   .Vector {
     width: 14.63px;
     height: 15.75px;
