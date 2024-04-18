@@ -11,6 +11,8 @@ import headphones from './Assets/headphones.png'
 import buttoncart from './Assets/Buttoncart.png'
 import blackiphone from './Assets/iphone-12-01.png'
 import greeniphone from './Assets/Name=Iphone-12-02.png'
+import whiteiphone from './Assets/Name=Iphone-12-04.png'
+import rediphone from './Assets/Name=Iphone-12-03.png'
 
 function Dashboard() {
 
@@ -89,7 +91,7 @@ function Dashboard() {
                         <div className="ItemName">Sony ZX330BT</div>
                         <div className="SmallDescription">Light Grey</div>
                         <div className="Action">
-                        <div className="Price">$ 9.99</div>
+                        <div className="Price">$ 39.99</div>
                         <div className="Button">
                             {/* <div className="Icon">
                             <div className="Vector"></div>
@@ -101,9 +103,9 @@ function Dashboard() {
                     </div> 
                     <div className="ItemCard">
                     <div className="ProductImage">
-                        <div className="ProductImageInner">
+                        {/* <div className="ProductImageInner"> */}
                         <img className="Image" src={blackiphone} alt='' />
-                        </div>
+                        {/* </div> */}
                     </div>
                     <div className="Content">
                         <div className="ItemName">Iphone 11</div>
@@ -122,9 +124,9 @@ function Dashboard() {
 
                     <div className="ItemCard">
                     <div className="ProductImage">
-                        <div className="ProductImageInner">
+                        {/* <div className="ProductImageInner"> */}
                         <img className="Image" src={greeniphone} alt='' />
-                        </div>
+                        {/* </div> */}
                     </div>
                     <div className="Content">
                         <div className="ItemName">Iphone 11</div>
@@ -140,78 +142,83 @@ function Dashboard() {
                         </div>
                     </div>
                     </div> 
+
                     <div className="ItemCard">
                     <div className="ProductImage">
-                        <div className="ProductImageInner">
-                        <img className="Image" src="https://via.placeholder.com/159x200" />
-                        </div>
+                        {/* <div className="ProductImageInner"> */}
+                        <img className="Image" src={rediphone} alt='' />
+                        {/* </div> */}
                     </div>
                     <div className="Content">
-                        <div className="ItemName">Apple Watch</div>
-                        <div className="SmallDescription">Series 5 SE</div>
+                        <div className="ItemName">Iphone 11</div>
+                        <div className="SmallDescription">Product RED</div>
                         <div className="Action">
-                        <div className="Price">$ 529.99</div>
+                        <div className="Price">$ 619.99</div>
                         <div className="Button">
-                            <div className="Icon">
+                            {/* <div className="Icon">
                             <div className="Vector"></div>
-                            </div>
+                            </div> */}
+                            <img src={buttoncart} alt="" />
                         </div>
                         </div>
                     </div>
                     </div> 
                     <div className="ItemCard">
                     <div className="ProductImage">
-                        <div className="ProductImageInner">
-                        <img className="Image" src="https://via.placeholder.com/159x200" />
-                        </div>
+                        {/* <div className="ProductImageInner"> */}
+                        <img className="Image" src={whiteiphone}  alt=''/>
+                        {/* </div> */}
                     </div>
                     <div className="Content">
-                        <div className="ItemName">Apple Watch</div>
-                        <div className="SmallDescription">Series 5 SE</div>
+                        <div className="ItemName">Iphone 11</div>
+                        <div className="SmallDescription">Milky White</div>
                         <div className="Action">
-                        <div className="Price">$ 529.99</div>
+                        <div className="Price">$ 619.99</div>
                         <div className="Button">
-                            <div className="Icon">
+                            {/* <div className="Icon">
                             <div className="Vector"></div>
-                            </div>
+                            </div> */}
+                            <img src={buttoncart} alt="" />
                         </div>
                         </div>
                     </div>
                     </div> 
                     <div className="ItemCard">
                     <div className="ProductImage">
-                        <div className="ProductImageInner">
-                        <img className="Image" src="https://via.placeholder.com/159x200" />
-                        </div>
+                        {/* <div className="ProductImageInner"> */}
+                        <img className="Image" src={rediphone} alt='' />
+                        {/* </div> */}
                     </div>
                     <div className="Content">
-                        <div className="ItemName">Apple Watch</div>
-                        <div className="SmallDescription">Series 5 SE</div>
+                        <div className="ItemName">Iphone 13</div>
+                        <div className="SmallDescription">Product RED</div>
                         <div className="Action">
-                        <div className="Price">$ 529.99</div>
+                        <div className="Price">$ 619.99</div>
                         <div className="Button">
-                            <div className="Icon">
+                            {/* <div className="Icon">
                             <div className="Vector"></div>
-                            </div>
+                            </div> */}
+                            <img src={buttoncart} alt="" />
                         </div>
                         </div>
                     </div>
                     </div> 
                     <div className="ItemCard">
                     <div className="ProductImage">
-                        <div className="ProductImageInner">
-                        <img className="Image" src="https://via.placeholder.com/159x200" />
-                        </div>
+                        {/* <div className="ProductImageInner"> */}
+                        <img className="Image" src={rediphone}  alt=''/>
+                        {/* </div> */}
                     </div>
                     <div className="Content">
-                        <div className="ItemName">Apple Watch</div>
-                        <div className="SmallDescription">Series 5 SE</div>
+                        <div className="ItemName">Iphone 14</div>
+                        <div className="SmallDescription">Product RED</div>
                         <div className="Action">
-                        <div className="Price">$ 529.99</div>
+                        <div className="Price">$ 619.99</div>
                         <div className="Button">
-                            <div className="Icon">
+                            {/* <div className="Icon">
                             <div className="Vector"></div>
-                            </div>
+                            </div> */}
+                            <img src={buttoncart} alt="" />
                         </div>
                         </div>
                     </div>
