@@ -7,9 +7,9 @@ body {
     justify-content: center; Slight off-center to the left */
     width: 1440px;
     height: 100%;
-    top: -529px;
+    /* top: -529px; */
     left: 2519px;
-    gap: 0px;
+    /* gap: 0px; */
     border-radius: 16px 0px 0px 0px;
     opacity: 0px;
     background-color: #EDECEC;
@@ -20,8 +20,8 @@ body {
     width: 60%;
     height: 100%;
     margin-left: 12rem;
-    padding: 48px 0px 0px 0px;
-    gap: 10px;
+    /* padding: 48px 0px 0px 0px; */
+    /* gap: 10px; */
     opacity: 0px;
 
 }
@@ -29,7 +29,7 @@ body {
 .Header {
     width: Hug (460px)px;
     height: Hug (91px)px;
-    padding: 8px 8px 24px 8px;
+    /* padding: 8px 8px 24px 8px; */
     gap: 16px;
     opacity: 0px;
 }
@@ -37,7 +37,7 @@ body {
 .header-h1 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 48.83px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 59.33px;
     text-align: left;
     color: #1A1F16;
