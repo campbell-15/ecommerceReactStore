@@ -103,6 +103,7 @@ body {
     /* padding: 8px; */
     gap: 3px;
     opacity: 0px;
+    flex-wrap: wrap;
 
 }
 
@@ -136,7 +137,7 @@ body {
 }
 
 .description p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.4;
 }
 
@@ -144,6 +145,7 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .stars {
@@ -154,13 +156,14 @@ body {
 .out-of-five {
     margin-left: 5px;
     font-size: 14px;
-    color: #777;
+    color: #12805D;
 }
 
 .price-rating {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .price {
@@ -170,4 +173,12 @@ body {
 
 .quantity {
     margin-left: auto; /* Add spacing between price and quantity */
+}
+
+.minus {
+    color: #E5252C;
+}
+
+.addition {
+    color: #02D693;
 }

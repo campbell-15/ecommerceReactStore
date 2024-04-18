@@ -38,7 +38,7 @@ const CheckoutBagPage = () => {
         {
             id: 4,
             title: "Iphone 11",
-            subtitle: "Navy Blue",
+            subtitle: "Serious Black",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam ",
             rating: 4.5,
             price: "$619.99",
@@ -75,7 +75,7 @@ const CheckoutBagPage = () => {
                                 </div>
                                 <div className="price-rating">
                                     <div className="price">{product.price}</div>
-                                    <div className="quantity"><span>-</span>{product.quantity}<span>+</span></div>
+                                    <div className="quantity"><span className='minus'>-</span>{product.quantity}<span className='addition'>+</span></div>
                                 </div>
                             </div>
                         </div>
