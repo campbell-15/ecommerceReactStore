@@ -1,0 +1,333 @@
+.Body{
+  
+    background: #EDEDED;
+
+  }
+
+  .Navbar {
+    width: 72px;
+    height: 992px;
+    padding: 8px;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 18px; /* Adjust this value to move the Navbar more or less to the left */
+    top: 18px; /* Adjust this value to add more or less space at the top */
+  }
+
+  
+  .NavLinksTop {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .Logo {
+    padding: 8px;
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Group1 {
+    width: 16px;
+    height: 20.71px;
+    position: relative;
+  }
+  
+  .Union {
+    width: 9.48px;
+    height: 5.79px;
+    left: 5.59px;
+    top: 0;
+    position: absolute;
+  }
+
+  .MenuIcon {
+    padding: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .Icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .Vector {
+    width: 15.75px;
+    height: 9.75px;
+    left: 4.12px;
+    top: 7.12px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px #1A1F16 solid;
+  }
+  
+  .NavLink {
+    padding: 8px;
+    background: #1A1F16;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .NavLinkBottom {
+    padding: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+
+  /* search */
+  .Input {
+    width: 507px;
+    height: 83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .Label {
+    color: #60695C;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .LabelText {
+    color: #60695C;
+    font-size: 16px;
+    font-family: 'Cabin';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .InputField {
+    align-self: stretch;
+    padding: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: white;
+    box-shadow: 0px 4px 16px rgba(26, 31, 22, 0.15);
+    border-radius: 13px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .InputArea {
+    flex: 1 1 0;
+    height: 40px;
+    padding: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .Placeholder {
+    flex: 1 1 0;
+    color: rgba(26, 31, 22, 0.50);
+    font-size: 20px;
+    font-family: 'Cabin';
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+
+
+  .ContentFrame {
+    width: 953px;
+    height: 999px;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+  
+  .TopBar {
+    padding: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+  }
+  
+  .Input {
+    height: 83px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    display: flex;
+  }
+  
+  .Label {
+    padding-left: 8px;
+    padding-right: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+  
+
+
+
+  /* item 1 */
+  .Container {
+    display: flex;
+    flex-wrap: wrap; /* This allows the items to wrap onto the next line */
+    justify-content: flex-start; /* This aligns the items to the start of the container */
+    align-items: center;
+    height: 100vh;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+  }
+  
+  .ItemCard {
+    width: 223.36px;
+    height: 397px;
+    padding: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    margin-right: 20px; /* Add some space between the cards */
+    margin-bottom: 20px; /* Add some space between the rows */
+  }
+  
+  .ProductImage {
+    width: 191.36px;
+    padding: 16px;
+    background: white;
+    border-radius: 22px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ProductImageInner {
+    width: 159.36px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Image {
+    width: 159.36px;
+    height: 200px;
+  }
+  
+  .Content {
+    align-self: stretch;
+    height: 125px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .ItemName {
+    color: #1A1F16;
+    font-size: 20px;
+    font-family: 'Cabin';
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  
+  .SmallDescription {
+    color: #60695C;
+    font-size: 16px;
+    font-family: 'Cabin';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .Action {
+    align-self: stretch;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Price {
+    color: #1A1F16;
+    font-size: 20px;
+    font-family: 'Cabin';
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  
+  .Button {
+    padding: 8px;
+    background: #1A1F16;
+    border-radius: 9px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .Icon {
+    width: 18px;
+    height: 18px;
+    position: relative;
+  }
+  
+  .Vector {
+    width: 14.63px;
+    height: 15.75px;
+    left: 1.69px;
+    top: 1.12px;
+    position: absolute;
+    background: white;
+  }
+
+
+  /* 2 */
