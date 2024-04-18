@@ -228,30 +228,37 @@ function Dashboard() {
 
                     </div>
                     
+                  
+                    <div className="Line"></div>
+                        
+                 
+
                     
                     <div className="BagArea">
-            <div className="Title">
+            {/* <div > */}
                 <div className="Bag">Bag</div>
-            </div>
+            {/* </div> */}
             <div className="BagItems">
                 <div className="Row">
+
                     <div className="BagItem">
-                        <div className="ProductImage">
+                        {/* <div className="ProductImage2"> */}
+                            <img className="bagImages" src="https://via.placeholder.com/64x84" alt="Product" />
+                        {/* </div> */}
+                    </div>
+
+                    <div className="BagItem">
+                        {/* <div className="ProductImage2"> */}
+                            <img className="bagImages" src="https://via.placeholder.com/64x84" alt="Product" />
+                        {/* </div> */}
+                    </div>
+                    <div className="BagItem">
+                        <div className="ProductImage2">
                             <img className="bagImages" src="https://via.placeholder.com/64x84" alt="Product" />
                         </div>
                     </div>
                     <div className="BagItem">
-                        <div className="ProductImage">
-                            <img className="bagImages" src="https://via.placeholder.com/64x84" alt="Product" />
-                        </div>
-                    </div>
-                    <div className="BagItem">
-                        <div className="ProductImage">
-                            <img className="bagImages" src="https://via.placeholder.com/64x84" alt="Product" />
-                        </div>
-                    </div>
-                    <div className="BagItem">
-                        <div className="ProductImage">
+                        <div className="ProductImage2">
                             <img className="bagImages" src="https://via.placeholder.com/64x84" alt="Product" />
                         </div>
                     </div>
