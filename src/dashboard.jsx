@@ -207,21 +207,51 @@ function Dashboard() {
                         </div>
                     </div>
                     </div> 
-                    
+            
+
 
                     </div>
                     
                     
-                    {/* </div> */}
-                     {/* </div> */}
-                   
-                                
-{/*                       
-
-                        <div className="ContentArea">
-                       
-                       
-                    </div> */}
+                    <div className="BagArea">
+            <div className="Title">
+                <div className="Bag">Bag</div>
+            </div>
+            <div className="BagItems">
+                <div className="Row">
+                    <div className="BagItem">
+                        <div className="ProductImage">
+                            <img className="bagImages" src="https://via.placeholder.com/64x84" alt="Product" />
+                        </div>
+                    </div>
+                    <div className="BagItem">
+                        <div className="ProductImage">
+                            <img className="bagImages" src="https://via.placeholder.com/64x84" alt="Product" />
+                        </div>
+                    </div>
+                    <div className="BagItem">
+                        <div className="ProductImage">
+                            <img className="bagImages" src="https://via.placeholder.com/64x84" alt="Product" />
+                        </div>
+                    </div>
+                    <div className="BagItem">
+                        <div className="ProductImage">
+                            <img className="bagImages" src="https://via.placeholder.com/64x84" alt="Product" />
+                        </div>
+                    </div>
+                    {/* Repeat BagItem as needed */}
+                </div>
+                {/* Repeat Row as needed */}
+            </div>
+            <div className="Cta">
+                <div className="Button">
+                    <div className="Icon">
+                        <div className="Vector"></div>
+                    </div>
+                    <div className="Button">View Bag</div>
+                </div>
+            </div>
+        </div>
 
 
                        
