@@ -13,7 +13,23 @@
             saveAsDefault: false
             });
         
-            const [existingCards, setExistingCards] = useState([]);
+            const [existingCards, setExistingCards] = useState([
+                // Placeholder cards
+                {
+                    cardholderName: 'John Doe',
+                    cardNumber: '**** **** **** 1234', 
+                    expiryDate: '12/25',
+                    cvv: '123',
+                    saveAsDefault: false
+                },
+                {
+                    cardholderName: 'Jane Smith',
+                    cardNumber: '**** **** **** 5678',
+                    expiryDate: '10/23',
+                    cvv: '456',
+                    saveAsDefault: false
+                }
+            ]);
         
             const handleChange = (e) => {
             const { name, value, type, checked } = e.target;
