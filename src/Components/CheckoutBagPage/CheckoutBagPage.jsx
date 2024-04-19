@@ -92,7 +92,7 @@ const CheckoutBagPage = () => {
                                 <TextRating value={product.rating} />
                                 </div>
                                 <div className="price-rating">
-                                    <div className="price">{(product.price * product.quantity).toFixed(2)}</div>
+                                    <div className="price">{(product.price * product.quantity).toFixed(2)} x {product.quantity}</div>
                                     <div className="quantity">
                                         <span className='minus' onClick={() => decreaseQuantity(product.id)}>-</span>
                                         {product.quantity}
