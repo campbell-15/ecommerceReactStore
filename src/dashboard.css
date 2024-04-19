@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
 .Body{
   
     background: #EDEDED;
-    font-family: cabin;
+    font-family: 'Cabin', sans-serif; /* Use 'Cabin' font */
+    border-radius: 16px;
+    width: 100%; 
+    height: 1024px;
+
 
   }
 
@@ -371,86 +377,6 @@ opacity: 0px;
 
 /* left nav */
 
-.Row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 16px;
-  margin-bottom: 30px; /* Adjust this value as needed */
-
-}
- 
-.BagItem {
-  flex-basis: calc(33.33% - 16px); /* This will make each item take up approximately 1/3 of the row, accounting for the gap */
-  padding: 8px;
-  background: white;
-  /* border-radius: 12px; */
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 16px;
-  box-sizing: border-box;
-    width:80px;
-height:80px;
-padding: 8px 0px 0px 0px;
-gap: 16px;
-border-radius: 12px 0px 0px 0px;
-opacity: 0px;
-
-}
-
-
-
-  .BagArea {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end; /* This will align the child elements to the end (right side) of the container */
-    gap: 10px;
-}
-
-
-
-
-
-/* .Title {
-    padding: 8px;
-    display: inline-flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 10px;
-} */
-
-
-.Bag {
-    color: #1A1F16;
-    font-size: 39.06px;
-    font-family: Cabin;
-    font-weight: 500;
-    word-wrap: break-word;
-}
-
-.bagimages{
-  width: 64px;
-  height: 64px;
-  padding: 72px 8px 8px;
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 10px;
-}
-
-/* .line {
-width: 100%;
- height: 100%;
- transform: rotate(90deg);
- transform-origin: 0 0;
-  border: 4px rgba(26, 31, 22, 0.50) solid;
-} */
 
 .Line {
     width: 921.6px;
@@ -461,4 +387,123 @@ width: 100%;
     border-top: 4px solid rgba(26, 31, 22, 0.50); /* Adjust color as needed */
     opacity: 1;
     transform: rotate(-90deg);
+}
+
+
+/* BagArea.css */
+
+.BagArea {
+  width: 100%;
+  height: 100%;
+  padding: 72px 8px 8px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 0;
+  right: -500px;
+}
+
+.Title {
+  padding: 8px;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.Bag {
+  color: #1A1F16;
+  font-size: 39.06px;
+  font-family: 'Cabin';
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.bagItems {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.row {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.bagItem {
+  padding: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  background: white;
+  border-radius: 12px;
+}
+
+.productImage {
+  width: 64px;
+  height: 64px;
+  position: relative;
+}
+
+.image {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  height: 72px;
+  padding: 16px;
+}
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 24px;
+  background: #1A1F16;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.vector {
+  width: 19.50px;
+  height: 21px;
+  position: absolute;
+  top: 1.50px;
+  left: 2.25px;
+  background: white;
+}
+
+.buttonText {
+  color: white;
+  font-size: 20px;
+  font-family: 'Cabin';
+  font-weight: 500;
+  word-wrap: break-word;
 }

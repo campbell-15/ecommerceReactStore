@@ -230,52 +230,52 @@ function Dashboard() {
                     
                   
                     <div className="Line"></div>
+
+ 
                         
                  
 
-                    
-                    <div className="BagArea">
-            {/* <div > */}
-                <div className="Bag">Bag</div>
-            {/* </div> */}
-            <div className="BagItems">
-                <div className="Row">
-
-                    <div className="BagItem">
-                        {/* <div className="ProductImage2"> */}
-                            <img className="bagImages" src="https://via.placeholder.com/64x84" alt="Product" />
-                        {/* </div> */}
-                    </div>
-
-                    <div className="BagItem">
-                        {/* <div className="ProductImage2"> */}
-                            <img className="bagImages" src="https://via.placeholder.com/64x84" alt="Product" />
-                        {/* </div> */}
-                    </div>
-                    <div className="BagItem">
-                        <div className="ProductImage2">
-                            <img className="bagImages" src="https://via.placeholder.com/64x84" alt="Product" />
-                        </div>
-                    </div>
-                    <div className="BagItem">
-                        <div className="ProductImage2">
-                            <img className="bagImages" src="https://via.placeholder.com/64x84" alt="Product" />
-                        </div>
-                    </div>
-                    {/* Repeat BagItem as needed */}
-                </div>
-                {/* Repeat Row as needed */}
+                    <div className="BagArea" >
+            <div className="Title">
+                <div className="Bag" >Bag</div>
             </div>
-            <div className="Cta">
-                <div className="Button">
-                    <div className="Icon">
-                        <div className="Vector"></div>
+            <div className="bagItems" >
+                <div className="row" >
+                    <div className="bagItem" >
+                        <div className="productImage" >
+                            <img className="image"  src="https://via.placeholder.com/64x84" alt='' />
+                        </div>
                     </div>
-                    <div className="Button">View Bag</div>
+
+                    <div className="bagItem" >
+                        <div className="productImage" >
+                            <img className="image"  src="https://via.placeholder.com/64x84" alt='' />
+                        </div>
+                    </div>
+                    <div className="bagItem" >
+                        <div className="productImage" >
+                            <img className="image"  src="https://via.placeholder.com/64x84" alt='' />
+                        </div>
+                    </div>
+                    {/* ... other BagItem elements here ... */}
+                </div>
+                <div className="bagItem" >
+                        <div className="productImage" >
+                            <img className="image"  src="https://via.placeholder.com/64x84" alt='' />
+                        </div>
+                    </div>
+                {/* ... other Row elements here ... */}
+            </div>
+            <div className="cta" >
+                <div className="button" >
+                    <div className="icon">
+                        <div className="vector"></div>
+                    </div>
+                    <div className="buttonText" >View Bag</div>
                 </div>
             </div>
         </div>
-
+     
 
                        
        
