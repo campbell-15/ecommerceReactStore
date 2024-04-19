@@ -2,6 +2,7 @@
 
     import React, { useState } from 'react';
     import './AddPayment.css';
+    import CreditCardIcon from '@mui/icons-material/CreditCard';
 
     const AddPayment = () => {
         const [cardInfo, setCardInfo] = useState({
@@ -52,10 +53,12 @@
                 <h2>SELECT A CARD</h2>
                 <div className="existing-cards">
                     {existingCards.map((card, index) => (
-                    <label key={index}>
-                        <input type="radio" name="selectedCard" value={index} />
-                        {card.cardholderName}'s Mastercard ending in {card.cardNumber.slice(-4)}
-                    </label>
+                        <div key={index} className="card-item">
+                        <CreditCardIcon />
+                        <span>
+                            MasterCard ending in {card.cardNumber.slice(-4)}
+                        </span>
+                        </div>
                     ))}
                 </div>
                 </div>
