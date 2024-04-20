@@ -95,4 +95,16 @@
         flex-direction: column;
         gap: 1rem;
     }
+
+    .horizontal-group {
+        display: flex;
+        gap: 20px; /* Adjust the gap between Expiry Date and CVV */
+    }
+    
+    .expiry-date input[type="text"], .cvv input[type="text"] {
+        flex: 1;
+        width: calc(70% - 10px); /* Adjust the width as needed */
+    }
+
+    
     

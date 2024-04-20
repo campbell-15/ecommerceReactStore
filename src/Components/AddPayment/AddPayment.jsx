@@ -90,12 +90,16 @@
                     <input type="text" name="cardNumber" value={cardInfo.cardNumber} onChange={handleChange} />
                     </div>
                     <div className="form-group">
-                    <label>Expiry Date</label>
-                    <input type="text" name="expiryDate" value={cardInfo.expiryDate} onChange={handleChange} />
-                    </div>
-                    <div className="form-group">
-                    <label>CVV</label>
-                    <input type="text" name="cvv" value={cardInfo.cvv} onChange={handleChange} />
+                        <div className="horizontal-group">
+                            <div className="expiry-date">
+                                <label>Expiry Date</label>
+                                <input type="text" name="expiryDate" value={cardInfo.expiryDate} onChange={handleChange} />
+                            </div>
+                            <div className="cvv">
+                                <label>CVV</label>
+                                <input type="text" name="cvv" value={cardInfo.cvv} onChange={handleChange} />
+                            </div>
+                        </div>
                     </div>
                     <div className="form-group">
                     <label>
