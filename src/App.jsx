@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<CheckoutBagPage/>} />
+        <Route path='/view-bag' element={<CheckoutBagPage/>} />
         <Route path='/change-payment' element={<AddPayment/>} />
       </Routes>
     </Router>
