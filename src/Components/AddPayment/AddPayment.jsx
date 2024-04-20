@@ -41,6 +41,7 @@
             };
         
             const handleAddPayment = () => {
+
             // Create a new card object with the entered information
             const newCard = {
                 cardNumber: cardInfo.cardNumber,
@@ -83,21 +84,21 @@
                 <form>
                     <div className="form-group">
                     <label>Cardholder Name</label>
-                    <input type="text" name="cardholderName" value={cardInfo.cardholderName} onChange={handleChange} />
+                    <input type="text" name="cardholderName" value={cardInfo.cardholderName} onChange={handleChange} placeholder='John Maker'required/>
                     </div>
                     <div className="form-group">
                     <label>Card Number</label>
-                    <input type="text" name="cardNumber" value={cardInfo.cardNumber} onChange={handleChange} />
+                    <input type="text" name="cardNumber" value={cardInfo.cardNumber} onChange={handleChange} placeholder='Enter Card Number...' required/>
                     </div>
                     <div className="form-group">
                         <div className="horizontal-group">
                             <div className="expiry-date">
                                 <label>Expiry Date</label>
-                                <input type="text" name="expiryDate" value={cardInfo.expiryDate} onChange={handleChange} />
+                                <input type="text" name="expiryDate" value={cardInfo.expiryDate} onChange={handleChange} placeholder='31/2030' required/>
                             </div>
                             <div className="cvv">
                                 <label>CVV</label>
-                                <input type="text" name="cvv" value={cardInfo.cvv} onChange={handleChange} />
+                                <input type="text" name="cvv" value={cardInfo.cvv} onChange={handleChange} placeholder='123' required/>
                             </div>
                         </div>
                     </div>
@@ -107,7 +108,7 @@
                         Save this as your default payment method
                     </label>
                     </div>
-                    <button type="button" onClick={handleAddPayment}>Add Payment Method</button>
+                    <button type="button" onClick={handleAddPayment} disabled={!cardInfo.cardholderName || !cardInfo.cardNumber || !cardInfo.expiryDate || !cardInfo.cvv}>Add Payment Method</button>
                 </form>
                 </div>
             </div>
