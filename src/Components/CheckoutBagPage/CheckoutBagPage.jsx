@@ -7,6 +7,11 @@ import menue from '../../Assets/Menu-Icon.png'
 import home from '../../Assets/Nav-Link.png'
 import bag from '../../Assets/bag.png'
 import logout from '../../Assets/rednextbutton.png'
+import dell from '../../Assets/Name=Dell-XPS-13-White.png'
+import blueiphone from '../../Assets/Name=Iphone-12-Pro-02.png'
+import whiteiphone from '../../Assets/Name=Iphone-12-04.png'
+import blackiphone from '../../Assets/iphone-12-01.png'
+import whitebag from '../../Assets/whitebag.png'
 
 const CheckoutBagPage = () => {
     const [products, setProducts] = useState([
@@ -135,6 +140,48 @@ const CheckoutBagPage = () => {
                     ))}
                 </div>
             </div>
+            <div className="Line"></div>
+            <div className="BagArea" >
+            <div className="Title">
+                <div className="Bag" >Bag</div>
+            </div>
+            <div className="bagItems" >
+                <div className="row" >
+                    <div className="bagItem" >
+                        <div className="productImage" >
+                            <img className="image"  src={dell} alt='' />
+                        </div>
+                    </div>
+
+                    <div className="bagItem" >
+                        <div className="productImage" >
+                            <img className="image"  src={blueiphone} alt='' />
+                        </div>
+                    </div>
+                    <div className="bagItem" >
+                        <div className="productImage" >
+                            <img className="image"  src={whiteiphone} alt='' />
+                        </div>
+                    </div>
+                    {/* ... other BagItem elements here ... */}
+                </div>
+                <div className="bagItem" >
+                        <div className="productImage" >
+                            <img className="image"  src={blackiphone} alt='' />
+                        </div>
+                    </div>
+                {/* ... other Row elements here ... */}
+            </div>
+            <div className="cta" >
+                <div className="button" >
+                    <div className="icon">
+                        <img src={whitebag} alt="" />
+                        {/* <div className="vector"> <img src={bag}alt="" /></div> */}
+                    </div>
+                    <div className="buttonText" >Checkout</div>
+                </div>
+            </div>
+        </div>
         </div>
     )
 }
