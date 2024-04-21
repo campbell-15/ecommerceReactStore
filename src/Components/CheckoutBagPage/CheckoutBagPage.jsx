@@ -2,6 +2,11 @@ import React from 'react';
 import { useState } from "react";
 import './CheckoutBagPage.css';
 import TextRating from '../Rating/Rating';
+import logo from '../../Assets/Logo.png'
+import menue from '../../Assets/Menu-Icon.png'
+import home from '../../Assets/Nav-Link.png'
+import bag from '../../Assets/bag.png'
+import logout from '../../Assets/rednextbutton.png'
 
 const CheckoutBagPage = () => {
     const [products, setProducts] = useState([
@@ -70,6 +75,32 @@ const CheckoutBagPage = () => {
 
     return (
         <div className="bag">
+            <div className="Navbar">
+                        <div className="NavLinksTop">
+
+                            <div className="Logo">
+                                <img  src={logo} alt=''/>
+                            </div>
+
+                            <div className="MenuIcon">
+                                <img  src={menue} alt=''/>
+                            </div>
+
+                            <div className="NavLink">
+                            <img  src={home} alt=''/>
+                            </div>
+
+
+                            <img  src={bag} alt=''/>
+                            
+                        </div>
+
+
+                        <div className="NavLinkBottom">
+                            <img  src={logout} alt=''/>
+                        </div>
+
+                        </div>
             <div className="content-frame">
                 <div className="Header">
                     <h1 className='header-h1'>Check Your Bag Items</h1>
