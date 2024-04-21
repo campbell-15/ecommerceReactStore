@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+.Body{
+  
+    background: #EDEDED;
+    font-family: 'Cabin', sans-serif; /* Use 'Cabin' font */
+    border-radius: 16px;
+    /* width: 100%;  */
+    height: 1024px;
+     /* width: 1440px;  */
+
+     overflow: hidden;
+  }
+
+  .Navbar {
+    width: 72px;
+    height: 992px;
+    padding: 8px;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 18px; /* Adjust this value to move the Navbar more or less to the left */
+    top: 18px; /* Adjust this value to add more or less space at the top */
+  }
+
+  
+  .NavLinksTop {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .Logo {
+    padding: 8px;
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Group1 {
+    width: 16px;
+    height: 20.71px;
+    position: relative;
+  }
+  
+  .Union {
+    width: 9.48px;
+    height: 5.79px;
+    left: 5.59px;
+    top: 0;
+    position: absolute;
+  }
+
+  .MenuIcon {
+    padding: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .Icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .Vector {
+    width: 15.75px;
+    height: 9.75px;
+    left: 4.12px;
+    top: 7.12px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px #1A1F16 solid;
+  }
+  
+  .NavLink {
+    padding: 8px;
+    background: #1A1F16;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .NavLinkBottom {
+    padding: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+
+  /* search */
+  .Input {
+    width: 507px;
+    height: 83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .Label {
+    color: #60695C;
+    padding-left: 8px;
+    padding-right: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .LabelText {
+    color: #60695C;
+    font-size: 16px;
+    font-family: 'Cabin';
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .InputField {
+    align-self: stretch;
+    padding: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: white;
+    box-shadow: 0px 4px 16px rgba(26, 31, 22, 0.15);
+    border-radius: 13px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .InputArea {
+    flex: 1 1 0;
+    height: 40px;
+    padding: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .Placeholder {
+    flex: 1 1 0;
+    color: rgba(26, 31, 22, 0.50);
+    font-size: 20px;
+    font-family: 'Cabin';
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+
+
+  .ContentFrame {
+    width: 953px;
+    height: 999px;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+  
+  .TopBar {
+    width: 523px;
+    height: 99px;
+    padding: 8px 0px 0px 0px;
+    /* gap: 10px; */
+    opacity: 0px;
+    /* padding: 8px; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+    position: absolute; /* Change this from relative to absolute */
+    top: 60px; /* Add this line */
+    left: 339px;
+} 
+
+
+
+  .Input {
+    height: 83px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    display: flex;
+  }
+  
+  .Label {
+    padding-left: 8px;
+    padding-right: 8px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+  
+
+
+
+  /* item 1 */
+  .Container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* This will create 4 equal-width columns */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    width: 905px;
+    height: 842px;
+    padding: 8px 0px 8px 0px;
+    gap: 20px; /* Adjust this value to increase or decrease the space between item cards */
+    opacity: 0px;
+  }
+  
+  .ItemCard {
+    padding: 16px 0px 0px 0px;
+    gap: 8px;
+    border-radius: 22px 0px 0px 0px;
+    opacity: 0px;
+    width: 223.36px;
+    height: 397px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .ProductImage {
+    width: 159.36px;
+    padding: 16px;
+    background: white;
+    border-radius: 22px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-direction: column;
+
+  }
+  
+  /* .ProductImageInner {
+    width: 159.36px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  .Image {
+    width: 159.36px;
+    height: 200px;
+  }
+  
+  .Content {
+    align-self: stretch;
+    width: 191.36px;
+    height: 125px;
+    padding: 8px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    opacity: 0px;
+
+  }
+
+
+
+  
+  .ItemName {
+    color: #1A1F16;
+    font-size: 20px;
+    font-family: 'Cabin';
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  
+  .SmallDescription {
+    color: #60695C;
+    font-size: 16px;
+    font-family: 'Cabin';
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  
+  .Action {
+    align-self: stretch;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Price {
+    color: #1A1F16;
+    font-size: 20px;
+    font-family: 'Cabin';
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  
+  .Button {
+    width: 18px;
+    height: 18px;
+    padding: 8px;
+    background: #1A1F16;
+    border-radius: 9px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: relative; /* Add this line */
+    right: 10px; /* Now this line will work */
+}
+ 
+  /* .Icon {
+    width: 18px;
+    height: 18px;
+    position: relative;
+  }
+   */
+  .Vector {
+    width: 14.63px;
+    height: 15.75px;
+    left: 1.69px;
+    top: 1.12px;
+    position: absolute;
+    background: white;
+  }
+
+
+/* left nav */
+
+
+.Line {
+    width: 921.6px;
+    height: 0px;
+    position: absolute;
+    top: 520px;
+    left: 650px;
+    border-top: 4px solid rgba(26, 31, 22, 0.50); 
+    opacity: 1;
+    transform: rotate(-90deg);
+}
+
+
+/* BagArea.css */
+.BagArea {
+  width: 400px; /* or a specific value less than 100% */
+  height: 100%;
+  padding: 72px 8px 8px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 0;
+  right: 0; /* adjust this value as needed */
+}
+.Title {
+  padding: 8px;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.Bag {
+  color: #1A1F16;
+  font-size: 39.06px;
+  font-family: 'Cabin';
+  font-weight: 500;
+  word-wrap: break-word;
+}
+
+.bagItems {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.row {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.bagItem {
+  padding: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  background: white;
+  border-radius: 12px;
+}
+
+.productImage {
+  width: 64px;
+  height: 64px;
+  position: relative;
+}
+
+.image {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  height: 72px;
+  padding: 16px;
+}
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 24px;
+  background: #1A1F16;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.vector {
+  width: 19.50px;
+  height: 21px;
+  position: absolute;
+  top: 1.50px;
+  left: 2.25px;
+  background: white;
+}
+
+.buttonText {
+  color: white;
+  font-size: 20px;
+  font-family: 'Cabin';
+  font-weight: 500;
+  word-wrap: break-word;
+}
