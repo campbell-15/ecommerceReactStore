@@ -5,10 +5,11 @@
     background: #EDEDED;
     font-family: 'Cabin', sans-serif; /* Use 'Cabin' font */
     border-radius: 16px;
-    width: 100%; 
+    /* width: 100%;  */
     height: 1024px;
+     /* width: 1440px;  */
 
-
+     overflow: hidden;
   }
 
   .Navbar {
@@ -226,45 +227,33 @@
 
   /* item 1 */
   .Container {
-    display: flex;
-    flex-wrap: wrap; /* This allows the items to wrap onto the next line */
-    justify-content: flex-start; /* This aligns the items to the start of the container */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* This will create 4 equal-width columns */
+    flex-wrap: wrap;
+    justify-content: flex-start;
     align-items: center;
-    /* height: 100vh; */
     position: absolute;
     top: 150px;
     left: 150px;
     width: 905px;
-height: 842px;
-padding: 8px 0px 8px 0px;
-gap: 0px;
-opacity: 0px;
-
+    height: 842px;
+    padding: 8px 0px 8px 0px;
+    gap: 20px; /* Adjust this value to increase or decrease the space between item cards */
+    opacity: 0px;
   }
   
-
-
   .ItemCard {
-
-   
-
-padding: 16px 0px 0px 0px;
-gap: 8px;
-border-radius: 22px 0px 0px 0px;
-opacity: 0px;
-
+    padding: 16px 0px 0px 0px;
+    gap: 8px;
+    border-radius: 22px 0px 0px 0px;
+    opacity: 0px;
     width: 223.36px;
     height: 397px;
-    /* padding: 16px; */
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
-    /* border-radius: 22px; */
     overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
-    margin-bottom: 10px; /* Add some space between the rows */
   }
   
   .ProductImage {
@@ -382,18 +371,17 @@ opacity: 0px;
     width: 921.6px;
     height: 0px;
     position: absolute;
-    top: 550px;
-    left: 600px;
-    border-top: 4px solid rgba(26, 31, 22, 0.50); /* Adjust color as needed */
+    top: 520px;
+    left: 650px;
+    border-top: 4px solid rgba(26, 31, 22, 0.50); 
     opacity: 1;
     transform: rotate(-90deg);
 }
 
 
 /* BagArea.css */
-
 .BagArea {
-  width: 100%;
+  width: 400px; /* or a specific value less than 100% */
   height: 100%;
   padding: 72px 8px 8px;
   display: inline-flex;
@@ -403,9 +391,8 @@ opacity: 0px;
   gap: 10px;
   position: absolute;
   top: 0;
-  right: -500px;
+  right: 0; /* adjust this value as needed */
 }
-
 .Title {
   padding: 8px;
   display: inline-flex;

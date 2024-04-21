@@ -13,6 +13,9 @@ import blackiphone from './Assets/iphone-12-01.png'
 import greeniphone from './Assets/Name=Iphone-12-02.png'
 import whiteiphone from './Assets/Name=Iphone-12-04.png'
 import rediphone from './Assets/Name=Iphone-12-03.png'
+import dell from './Assets/Name=Dell-XPS-13-White.png'  
+import blueiphone from './Assets/Name=Iphone-12-Pro-02.png'
+import whitebag from './Assets/whitebag.png'
 
 function Dashboard() {
 
@@ -243,25 +246,25 @@ function Dashboard() {
                 <div className="row" >
                     <div className="bagItem" >
                         <div className="productImage" >
-                            <img className="image"  src="https://via.placeholder.com/64x84" alt='' />
+                            <img className="image"  src={dell} alt='' />
                         </div>
                     </div>
 
                     <div className="bagItem" >
                         <div className="productImage" >
-                            <img className="image"  src="https://via.placeholder.com/64x84" alt='' />
+                            <img className="image"  src={blueiphone} alt='' />
                         </div>
                     </div>
                     <div className="bagItem" >
                         <div className="productImage" >
-                            <img className="image"  src="https://via.placeholder.com/64x84" alt='' />
+                            <img className="image"  src={whiteiphone} alt='' />
                         </div>
                     </div>
                     {/* ... other BagItem elements here ... */}
                 </div>
                 <div className="bagItem" >
                         <div className="productImage" >
-                            <img className="image"  src="https://via.placeholder.com/64x84" alt='' />
+                            <img className="image"  src={blackiphone} alt='' />
                         </div>
                     </div>
                 {/* ... other Row elements here ... */}
@@ -269,7 +272,8 @@ function Dashboard() {
             <div className="cta" >
                 <div className="button" >
                     <div className="icon">
-                        <div className="vector"></div>
+                        <img src={whitebag} alt="" />
+                        {/* <div className="vector"> <img src={bag}alt="" /></div> */}
                     </div>
                     <div className="buttonText" >View Bag</div>
                 </div>
