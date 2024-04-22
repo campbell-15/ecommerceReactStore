@@ -31,6 +31,14 @@ const AddAddress = () => {
                     </div>
             </div>
 
+            <div className="form-group">
+                    <label  className='Label' >State / Province</label>
+                    <div className="InputArea">
+                    <input  className='Placeholder'  type="text" name="cardholderName"  placeholder='Vermont' required/>
+                    </div>
+            </div>
+
+
 
 
 
