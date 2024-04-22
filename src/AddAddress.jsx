@@ -4,19 +4,26 @@ const AddAddress = () => {
    
     return (
 
-        <div className="add-payment-container">
+        <div className="add-address-container">
     
         <div className="add-new-card-section">
      
         <form>
             <div className="form-group">
-            <label>Shipping name </label>
-            <input type="text" name="cardholderName"  placeholder='John Maker'required/>
+                <label className='Label'>Shipping Name </label>
+                <div className="InputArea">
+                <input  className='Placeholder'  type="text" name="cardholderName"  placeholder='John Maker'required/>
+                </div>
+
             </div>
+
             <div className="form-group">
-            <label>Street Name </label>
-            <input type="text" name="cardNumber" placeholder='123 Plae Grond Stret' required/>
+            <label  className='Label' >Street Name</label>
+            <div className="InputArea">
+            <input  className='Placeholder'  type="text" name="cardholderName"  placeholder='123 Plae Grond Stret' required/>
             </div>
+            </div>
+           
          
             <div className="form-group">
             <label>
@@ -24,8 +31,10 @@ const AddAddress = () => {
                 Save this as your default Address
             </label>
             </div>
+
             <button type="button" >Add Address</button>
         </form>
+        
         </div>
     </div>
     )
