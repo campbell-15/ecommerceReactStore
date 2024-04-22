@@ -76,7 +76,7 @@
         width: auto;
     }
     
-    button {
+    .add-payment-btn {
         width: 100%;
         background-color: black;
         color: white;
@@ -86,7 +86,7 @@
         cursor: pointer;
     }
     
-    button:hover {
+    .add-payment-btn:hover {
         opacity: 0.8;
     }
 
@@ -104,4 +104,22 @@
     .expiry-date input[type="text"], .cvv input[type="text"] {
         flex: 1;
         width: calc(70% - 10px); /* Adjust the width as needed */
+    }
+
+    .add-new-card-section .bottom-card {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+    }
+    
+    .bottom-card .back-button {
+        cursor: pointer;
+        width: 20%;
+        margin: 5px;
+    }
+    
+    .add-new-card-section .secure-connection {
+        margin: 5px;
+        color: #02D693;
+        font-size: larger;
     }
