@@ -57,10 +57,7 @@ const AddAddress = () => {
                 <div className="Button">Add Address</div>
             </div>
 
-             </form>
-             </div>
-
-             <div className="Infromation">
+            <div className="Infromation">
                 <div className="Button2">
                     <div className="Button2">Back</div>
                 </div>
@@ -69,6 +66,11 @@ const AddAddress = () => {
                     <div className="SecureConnection">Secure Connection</div>
                 </div>
             </div>
+            
+             </form>
+             </div>
+
+            
 
 
         </div>
