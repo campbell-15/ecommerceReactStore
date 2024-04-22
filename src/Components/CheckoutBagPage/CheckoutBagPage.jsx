@@ -1,7 +1,18 @@
 import React from 'react';
 import { useState } from "react";
 import './CheckoutBagPage.css';
+import { Link } from 'react-router-dom';
 import TextRating from '../Rating/Rating';
+import logo from '../../Assets/Logo.png'
+import menue from '../../Assets/Menu-Icon.png'
+import home from '../../Assets/Nav-Link.png'
+import bag from '../../Assets/bag.png'
+import logout from '../../Assets/rednextbutton.png'
+import dell from '../../Assets/Name=Dell-XPS-13-White.png'
+import blueiphone from '../../Assets/Name=Iphone-12-Pro-02.png'
+import whiteiphone from '../../Assets/Name=Iphone-12-04.png'
+import blackiphone from '../../Assets/iphone-12-01.png'
+import whitebag from '../../Assets/whitebag.png'
 
 const CheckoutBagPage = () => {
     const [products, setProducts] = useState([
@@ -70,6 +81,34 @@ const CheckoutBagPage = () => {
 
     return (
         <div className="bag">
+            <div className="Navbar">
+                        <div className="NavLinksTop">
+
+                            <div className="Logo">
+                            <Link to="/">
+                                <img src={logo} alt=''/>
+                            </Link>
+                            </div>
+
+                            <div className="MenuIcon">
+                                <img  src={menue} alt=''/>
+                            </div>
+
+                            <div className="NavLink">
+                            <img  src={home} alt=''/>
+                            </div>
+
+
+                            <img  src={bag} alt=''/>
+                            
+                        </div>
+
+
+                        <div className="NavLinkBottom">
+                            <img  src={logout} alt=''/>
+                        </div>
+
+                        </div>
             <div className="content-frame">
                 <div className="Header">
                     <h1 className='header-h1'>Check Your Bag Items</h1>
@@ -104,6 +143,48 @@ const CheckoutBagPage = () => {
                     ))}
                 </div>
             </div>
+            <div className="Line"></div>
+            <div className="BagArea" >
+            <div className="Title">
+                <div className="Bag" >Bag</div>
+            </div>
+            <div className="bagItems" >
+                <div className="row" >
+                    <div className="bagItem" >
+                        <div className="productImage" >
+                            <img className="image"  src={dell} alt='' />
+                        </div>
+                    </div>
+
+                    <div className="bagItem" >
+                        <div className="productImage" >
+                            <img className="image"  src={blueiphone} alt='' />
+                        </div>
+                    </div>
+                    <div className="bagItem" >
+                        <div className="productImage" >
+                            <img className="image"  src={whiteiphone} alt='' />
+                        </div>
+                    </div>
+                    {/* ... other BagItem elements here ... */}
+                </div>
+                <div className="bagItem" >
+                        <div className="productImage" >
+                            <img className="image"  src={blackiphone} alt='' />
+                        </div>
+                    </div>
+                {/* ... other Row elements here ... */}
+            </div>
+            <div className="cta" >
+                <div className="button" >
+                    <div className="icon">
+                        <img src={whitebag} alt="" />
+                        {/* <div className="vector"> <img src={bag}alt="" /></div> */}
+                    </div>
+                    <div className="buttonText" >Checkout</div>
+                </div>
+            </div>
+        </div>
         </div>
     )
 }

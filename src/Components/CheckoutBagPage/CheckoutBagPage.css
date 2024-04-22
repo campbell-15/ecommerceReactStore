@@ -3,25 +3,24 @@ body {
 }
 
 .bag {
+    display: flex;
     /* display: flex;
     justify-content: center; Slight off-center to the left */
-    width: 1440px;
-    height: 100%;
+    /* width: 1440px;
+    height: 100%; */
     /* top: -529px; */
-    left: 2519px;
+    /* left: 2519px; */
     /* gap: 0px; */
-    border-radius: 16px 0px 0px 0px;
+    /* border-radius: 16px 0px 0px 0px;
     opacity: 0px;
-    background-color: #EDECEC;
+    background-color: #EDECEC; */
 
 }
 
 .content-frame {
     width: 60%;
     height: 100%;
-    margin-left: 12rem;
-    /* padding: 48px 0px 0px 0px; */
-    /* gap: 10px; */
+    margin-left: 3rem;
     opacity: 0px;
 
 }
@@ -190,4 +189,8 @@ body {
     color: #02D693;
     margin: 0 20px;
     cursor: pointer;
+}
+
+.Line {
+    margin-left: -3rem;
 }
