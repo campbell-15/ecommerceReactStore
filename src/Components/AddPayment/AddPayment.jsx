@@ -108,7 +108,15 @@
                         Save this as your default payment method
                     </label>
                     </div>
-                    <button type="button" onClick={handleAddPayment} disabled={!cardInfo.cardholderName || !cardInfo.cardNumber || !cardInfo.expiryDate || !cardInfo.cvv}>Add Payment Method</button>
+                    <button type="button" onClick={handleAddPayment} disabled={!cardInfo.cardholderName || !cardInfo.cardNumber || !cardInfo.expiryDate || !cardInfo.cvv} className='add-payment-btn'>Add Payment Method</button>
+                    <div className="bottom-card">
+                        <div className="back-button">
+                            <button>Back</button>
+                        </div>
+                        <div className="secure-connection">
+                            <h6>Secure Connection</h6>
+                        </div>
+                    </div>
                 </form>
                 </div>
             </div>
