@@ -52,7 +52,10 @@ const AddAddress = () => {
                 Save this as your default Address
             </label>
             </div>
-            
+
+            <div className="InputArea">
+                <div className="Button">Add Address</div>
+            </div>
 
              </form>
              </div>
