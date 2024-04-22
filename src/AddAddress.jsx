@@ -60,6 +60,16 @@ const AddAddress = () => {
              </form>
              </div>
 
+             <div className="Infromation">
+                <div className="Button2">
+                    <div className="Button2">Back</div>
+                </div>
+                <div className="Info">
+                            <img src={greenbag} alt="" />
+                    <div className="SecureConnection">Secure Connection</div>
+                </div>
+            </div>
+
 
         </div>
         )
