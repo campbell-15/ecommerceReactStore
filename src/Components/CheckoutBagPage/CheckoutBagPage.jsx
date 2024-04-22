@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from "react";
 import './CheckoutBagPage.css';
+import { Link } from 'react-router-dom';
 import TextRating from '../Rating/Rating';
 import logo from '../../Assets/Logo.png'
 import menue from '../../Assets/Menu-Icon.png'
@@ -84,7 +85,9 @@ const CheckoutBagPage = () => {
                         <div className="NavLinksTop">
 
                             <div className="Logo">
-                                <img  src={logo} alt=''/>
+                            <Link to="/">
+                                <img src={logo} alt=''/>
+                            </Link>
                             </div>
 
                             <div className="MenuIcon">
