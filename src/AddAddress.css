@@ -127,17 +127,4 @@
         display: flex;
     }
     
-    .Icon {
-        width: 24px;
-        height: 24px;
-        position: relative;
-    }
-    
-    .Vector {
-        width: 16.50px;
-        height: 22.50px;
-        left: 3.75px;
-        top: 0.75px;
-        position: absolute;
-        background: #02D693;
-    }
+  
