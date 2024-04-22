@@ -10,6 +10,13 @@ const AddAddress = () => {
              <div className="add-new-card-section">
              <form>
 
+             <div className="form-group">
+                   <label className='Label'>Shipping Name </label>
+                    <div className="InputArea">
+                    <input  className='Placeholder'  type="text" name="cardholderName"  placeholder='John Maker'required/>
+                    </div>
+            </div>
+
 
 
 

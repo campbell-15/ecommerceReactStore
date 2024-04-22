@@ -13,3 +13,30 @@
         align-items: center;
         height: 100vh;
     }
+
+    .add-new-card-section {
+        width: Fixed 676px;
+        padding: 32px;
+        gap: 16px;
+        background-color: white;
+        color: black;
+        /* box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5); */
+        border-radius: 15px;
+        margin: 5px;
+        top: 95px;
+        left: 382px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        opacity: 0px;
+    }
+
+  
+    .Label {
+        color: rgba(26, 31, 22, 0.50);
+        font-size: 16px;
+        font-family: Cabin;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
