@@ -1,5 +1,7 @@
 import React from 'react';
 import './AddAddress.css'
+// import { green } from '@mui/material/colors';
+import greenbag from './Assets/greenlock.png'
 const AddAddress = () => {
    
     return (
@@ -40,9 +42,9 @@ const AddAddress = () => {
 
 
             <div className="form-group">
-                    <label  className='Label' >State / Province</label>
+                    <label  className='Label' >Country</label>
                     <div className="InputArea">
-                    <input  className='Placeholder'  type="text" name="cardholderName"  placeholder='California' required/>
+                    <input  className='Placeholder'  type="text" name="cardholderName"  placeholder='United States of America' required/>
                     </div>
             </div>
 
@@ -51,16 +53,29 @@ const AddAddress = () => {
 
          
             <div className="form-group">
-            <label>
-                <input type="checkbox" name="saveAsDefault"  />
+            <label className='Placeholder' >
+                <input className='styled-checkbox' type="checkbox" name="saveAsDefault"  />
                 Save this as your default Address
             </label>
             </div>
 
 
 
+            <div className="InputArea">
+                <div className="Button">Add Address</div>
+            </div>
 
-            <button type="button" >Add Address</button>
+            <div className="Infromation">
+                <div className="Button2">
+                    <div className="Button2">Back</div>
+                </div>
+                <div className="Info">
+                            <img src={greenbag} alt="" />
+                    <div className="SecureConnection">Secure Connection</div>
+                </div>
+            </div>
+
+            
         </form>
         
         </div>
