@@ -3,11 +3,14 @@ import CheckoutBagPage from './Components/CheckoutBagPage/CheckoutBagPage';
 import AddPayment from './Components/AddPayment/AddPayment';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+// import Checkout from './Checkout';
+// import Items from './Items';
 
 import Dashboard  from './dashboard';
 import AddAddress from './AddAddress';
 import Items from './Items';
 import Checkout from './Checkout';
+
 
 function App() {
   return (
