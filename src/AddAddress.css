@@ -127,4 +127,10 @@
         display: flex;
     }
     
-  
+    .SecureConnection {
+        color: #02D693;
+        font-size: 16px;
+        font-family: Cabin;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
