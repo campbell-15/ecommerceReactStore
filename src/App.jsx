@@ -6,7 +6,10 @@ import './App.css';
 
 import Dashboard  from './dashboard';
 import AddAddress from './AddAddress';
+<<<<<<< HEAD
 
+=======
+>>>>>>> 68f746719f89668aafeb343261d5ee6aee2e4dd1
 
 function App() {
   return (
