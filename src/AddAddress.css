@@ -40,3 +40,30 @@
         font-weight: 400;
         word-wrap: break-word;
     }
+
+    .InputArea {
+        flex: 1 1 0;
+        height: 40px;
+        padding: 8px;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        display: flex;
+        border-radius: 13px;
+    }
+    
+    .Placeholder {
+        flex: 1 1 0;
+        color: rgba(26, 31, 22, 0.50);
+        font-size: 20px;
+        font-family: Cabin;
+        font-weight: 500;
+        word-wrap: break-word;
+    }
+    
+    
+    .styled-checkbox {
+      
+        border: solid green;
+       
+    }

@@ -17,6 +17,12 @@ const AddAddress = () => {
                     </div>
             </div>
 
+            <div className="form-group">
+                    <label  className='Label' >Street Name</label>
+                    <div className="InputArea">
+                    <input  className='Placeholder'  type="text" name="cardholderName"  placeholder='123 Plae Grond Stret' required/>
+                    </div>
+            </div>
 
 
 
