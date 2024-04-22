@@ -7,7 +7,15 @@ const AddAddress = () => {
    
     return (
         <div className="add-address-container">
-            
+             <div className="add-new-card-section">
+             <form>
+
+
+
+
+             </form>
+             </div>
+
 
         </div>
         )
