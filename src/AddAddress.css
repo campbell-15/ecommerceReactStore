@@ -90,3 +90,13 @@
         font-weight: 500;
         word-wrap: break-word;
     }
+    .Infromation {
+   
+        width: 612px;
+        height:  35px;
+        gap: 0px;
+    opacity: 10px;
+        justify-content: space-between;
+        align-items: center;
+        display: inline-flex;
+    }
