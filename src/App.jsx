@@ -19,7 +19,6 @@ function App() {
         <Route path='/add-address' element={<AddAddress/>} />
         <Route path='/checkout' element={<Checkout/>} />
         <Route path='/item-view' element={<Items/>} />
-
       </Routes>
     </Router>
   );
