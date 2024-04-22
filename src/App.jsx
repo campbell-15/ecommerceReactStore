@@ -8,6 +8,9 @@ import './App.css';
 
 import Dashboard  from './dashboard';
 import AddAddress from './AddAddress';
+import Items from './Items';
+import Checkout from './Checkout';
+
 
 function App() {
   return (
@@ -17,8 +20,8 @@ function App() {
         <Route path='/view-bag' element={<CheckoutBagPage/>} />
         <Route path='/change-payment' element={<AddPayment/>} />
         <Route path='/add-address' element={<AddAddress/>} />
-        {/* <Route path='/checkout' element={<Checkout/>} />
-        <Route path='/item-view' element={<Items/>} /> */}
+        <Route path='/checkout' element={<Checkout/>} />
+        <Route path='/item-view' element={<Items/>} />
       </Routes>
     </Router>
   );
