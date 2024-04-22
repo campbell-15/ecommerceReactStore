@@ -39,7 +39,20 @@ const AddAddress = () => {
                     </div>
             </div>
 
+            <div className="form-group">
+                    <label  className='Label' >Country</label>
+                    <div className="InputArea">
+                    <input  className='Placeholder'  type="text" name="cardholderName"  placeholder='United States of America' required/>
+                    </div>
+            </div>
 
+            <div className="form-group">
+            <label className='Placeholder' >
+                <input className='styled-checkbox' type="checkbox" name="saveAsDefault"  />
+                Save this as your default Address
+            </label>
+            </div>
+            
 
              </form>
              </div>
