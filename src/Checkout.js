@@ -294,6 +294,8 @@ const Checkout = () => {
         <img className="icon" alt="" src="/back.svg" />
         <div className="checkout-content">Back</div>
       </div>
+
+      {/* Total summery block */}
       <div className="total-summary">
         <div className="line-01">
           <div className="order-summary">Order Summary</div>
