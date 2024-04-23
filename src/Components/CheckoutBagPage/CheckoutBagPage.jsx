@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 import TextRating from '../Rating/Rating';
 import logo from '../../Assets/Logo.png'
 import menue from '../../Assets/Menu-Icon.png'
-import home from '../../Assets/Nav-Link.png'
-import bag from '../../Assets/bag.png'
+import home from '../../Assets/Vector.png'
+// import bag from '../../Assets/bag.png'
 import logout from '../../Assets/rednextbutton.png'
 import dell from '../../Assets/Name=Dell-XPS-13-White.png'
 import blueiphone from '../../Assets/Name=Iphone-12-Pro-02.png'
@@ -14,7 +14,10 @@ import whiteiphone from '../../Assets/Name=Iphone-12-04.png'
 import blackiphone from '../../Assets/iphone-12-01.png'
 import whitebag from '../../Assets/whitebag.png'
 
+
 const CheckoutBagPage = () => {
+
+
     const [products, setProducts] = useState([
         {
             id: 1,
@@ -94,13 +97,14 @@ const CheckoutBagPage = () => {
                                 <img  src={menue} alt=''/>
                             </div>
 
-                            <div className="NavLink">
+                         
                             <img  src={home} alt=''/>
+                          
+
+                            <div className="NavLink">
+                            <img  src={whitebag} alt=''/>
                             </div>
 
-
-                            <img  src={bag} alt=''/>
-                            
                         </div>
 
 

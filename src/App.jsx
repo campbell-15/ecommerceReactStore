@@ -6,10 +6,9 @@ import './App.css';
 
 import Dashboard  from './dashboard';
 import AddAddress from './AddAddress';
-<<<<<<< HEAD
+import Items from './Items';
+import Checkout from './Checkout';
 
-=======
->>>>>>> 68f746719f89668aafeb343261d5ee6aee2e4dd1
 
 function App() {
   return (
@@ -19,6 +18,10 @@ function App() {
         <Route path='/view-bag' element={<CheckoutBagPage/>} />
         <Route path='/change-payment' element={<AddPayment/>} />
         <Route path='/add-address' element={<AddAddress/>} />
+        <Route path='/view-bag' element={<CheckoutBagPage/>} />
+        <Route path='/items' element={<Items/>} />
+        <Route path='/checkout' element={<Checkout/>} />
+
       </Routes>
     </Router>
   );
