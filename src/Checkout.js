@@ -1,7 +1,12 @@
 import { useCallback } from "react";
 import "./Checkout.css";
+import { useNavigate } from "react-router-dom";
 
 const Checkout = () => {
+
+  const navigate = useNavigate();
+
+
   const onActionsContainerClick = useCallback(() => {
     // Please sync "Add-Address" to the project
   }, []);
@@ -28,16 +33,16 @@ const Checkout = () => {
               <div className="check">Vermont, California</div>
               <div className="check">United States of America</div>
             </div>
-            <div className="actions" onClick={onActionsContainerClick}>
-              <div className="button">
-                <div className="checkout-content">Change</div>
+            <div className="actions1" >
+              <div className="button2">
+                <div className="checkout-content" onClick={() => navigate('/add-address')} >Change</div>
               </div>
             </div>
           </div>
         </div>
         <div className="address-card">
           <div className="header">
-            <div className="shipping-address">Payment Method</div>
+            <div className="shipping-address" >Payment Method</div>
           </div>
           <div className="content">
             <div className="current-address1">
@@ -74,7 +79,7 @@ const Checkout = () => {
             </div>
             <div className="actions1">
               <div className="button2" onClick={onButtonContainerClick}>
-                <div className="checkout-content">Change</div>
+                <div className="checkout-content"onClick={() => navigate('/change-payment')} >Change</div>
               </div>
             </div>
           </div>

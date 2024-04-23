@@ -1,196 +1,382 @@
+
 body {
+
     background-color: #EDECEC;
+
 }
+
+ 
 
 .bag {
-    display: flex;
-    /* display: flex;
-    justify-content: center; Slight off-center to the left */
-    /* width: 1440px;
-    height: 100%; */
-    /* top: -529px; */
-    /* left: 2519px; */
-    /* gap: 0px; */
-    /* border-radius: 16px 0px 0px 0px;
-    opacity: 0px;
-    background-color: #EDECEC; */
+
+    flex: 1;
 
 }
 
-.content-frame {
-    width: 60%;
-    height: 100%;
-    margin-left: 3rem;
-    opacity: 0px;
-
-}
-
-.Header {
-    width: Hug (460px)px;
-    height: Hug (91px)px;
-    /* padding: 8px 8px 24px 8px; */
-    gap: 16px;
-    opacity: 0px;
-}
-
-.header-h1 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 48.83px;
-    font-weight: 500;
-    line-height: 59.33px;
-    text-align: left;
-    color: #1A1F16;
-}
+ 
 
 .bag-content {
+
     display: flex;
+
     flex-direction: column;
+
     width: 100%;
-    height: Hug (1,224px)px;
+
     gap: 24px;
+
     opacity: 0px;
+
     margin-bottom: 20px;
+
 }
 
+ 
 
+.content-frame {
 
+    width: 60%;
+
+    /* height: 60%; */
+
+    margin-left: 3rem;
+
+    opacity: 0px;
+
+ 
+
+}
+
+ 
+
+.Header {
+
+    width: 460px;
+
+    height: 91px;
+
+    gap: 16px;
+
+    opacity: 0px;
+
+}
+
+ 
+
+.header-h1 {
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size: 48.83px;
+
+    font-weight: 500;
+
+    line-height: 59.33px;
+
+    text-align: left;
+
+    color: #1A1F16;
+
+}
+
+ 
+
+.bag-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 95%;
+
+    /* min-height: 1600px; */
+
+    gap: 24px;
+
+    opacity: 0px;
+
+    margin-bottom: 20px;
+
+    padding: 20px;
+
+    /* overflow-y: auto; */
+
+    box-sizing: border-box;
+
+}
+
+ 
 
 .item-in-bag {
+
     display: flex;
-    justify-content: space-between;
+
+    flex-direction: column;
+
     width: 100%;
-    height: 280px;
-    left: 122px;
+
     gap: 16px;
+
     border-radius: 21px;
+
     opacity: 0px;
+
     background-color: #FFFFFF;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
 }
+
+ 
 
 .product-img {
+
     width: 30%;
-    height: 80%;
+
     display: flex;
+
     justify-content: center;
+
     align-items: center;
-    object-fit: contain;
-    padding: 20px;
-    margin-top: 10px;
-    gap: 0px;
-    opacity: 0px;
+
+ 
 
     /* width: 30%; */
+
 }
+
+ 
 
 .product-img img {
-    width: 95%;
-    height: 115%;
-    top: -39.37px;
-    gap: 0px;
-    opacity: 0px;
-    /* width: 100%;
-    height: auto; */
+
+    max-width: 100%;
+
+    max-height: 100%;
+
+    margin-top: 40px;
+
 }
+
+ 
 
 .content-area {
+
     flex: 1;
+
     display: flex;
+
     flex-direction: column;
+
     justify-content: flex-start;
-    width: 100%;
-    height: auto;
-    /* padding: 8px; */
+
     gap: 3px;
+
     opacity: 0px;
-    flex-wrap: wrap;
+
     margin-top: 20px;
 
+ 
+
 }
+
+ 
 
 .item-header {
+
     width: 100%;
-    height: auto;
+
     gap: 8px;
+
     opacity: 0px;
+
 }
+
+ 
 
 .item-title {
+
     font-size: 18px;
+
     font-weight: bold;
+
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
     font-size: xx-large;
+
     font-weight: 300;
+
     margin-bottom: 10px;
+
 }
+
+ 
 
 .item-subtitle {
-    font-size: 14px;
+
+    font-size: 10px;
+
     color: #777;
+
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
+
+    font-size: large;
+
     font-weight: 500;
+
 }
+
+ 
 
 .description {
-    height: 30px;
-    padding-bottom: 20px;
+
+    font-size: 18px;
+
+    line-height: 1.4;
+
 }
+
+ 
 
 .description p {
-    font-size: 18px;
-    line-height: 1.4;
+
+    display: flex;
+
+    align-items: center;
+
+    margin-top: 10px;
+
 }
+
+ 
 
 .rating {
+
     display: flex;
+
     align-items: center;
-    margin-bottom: 10px;
+
+    margin-bottom: 2px;
+
     margin-top: 10px;
+
+    font-size: 20px;
+
 }
+
+ 
 
 .stars {
+
     line-height: 10px;
+
     color: #12805D; /* Set the color of stars */
+
 }
+
+ 
 
 .out-of-five {
+
     margin-left: 5px;
+
     font-size: 14px;
+
     color: #12805D;
+
 }
+
+ 
 
 .price-rating {
+
     display: flex;
+
     align-items: center;
-    margin-bottom: 20px;
-    margin-top: 30px;
+
+    margin-top: 0px;
+
 }
+
+ 
 
 .price {
-    font-size: 18px;
+
+    font-size: 20px;
+
     font-weight: 500;
+
 }
+
+ 
 
 .quantity {
-    margin-left: auto; /* Add spacing between price and quantity */
-    margin-right: 50px;
+
     display: flex;
+
     align-items: center;
-    font-size: 18px;
+
+    font-size: 24px;
+
+    color: #1A1F16;
+
 }
+
+ 
 
 .minus {
+
     color: #E5252C;
-    margin: 0 20px;
+
+    margin: 0 30px;
+
     cursor: pointer;
+
+    font-size: 20px;
+
 }
+
+ 
 
 .addition {
+
     color: #02D693;
-    margin: 0 20px;
+
+    margin: 0 30px;
+
     cursor: pointer;
+
+    font-size: 20px;
+
 }
 
+ 
+
 .Line {
+
     margin-left: -3rem;
+
 }
+
+ 
+
+.cta {
+
+    margin-right: 90px;
+
+}
+
+ 
+
+.quantity-display {
+
+    color: black;
+
+    font-size: 20px;
+
+}
+
+ 
+
+ 

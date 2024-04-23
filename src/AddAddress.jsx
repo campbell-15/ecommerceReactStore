@@ -2,9 +2,12 @@ import React from 'react';
 import './AddAddress.css'
 // import { green } from '@mui/material/colors';
 import greenbag from './Assets/greenlock.png'
+import { useNavigate } from "react-router-dom";
+
 
 const AddAddress = () => {
-   
+    const navigate = useNavigate();
+    
     return (
         <div className="add-address-container">
              <div className="add-new-card-section">
@@ -54,7 +57,7 @@ const AddAddress = () => {
             </div>
 
             <div className="InputArea">
-                <div className="Button">Add Address</div>
+                <div className="Button"  onClick={() => navigate('/checkout')} >Add Address</div>
             </div>
 
             <div className="Infromation">

@@ -15,7 +15,7 @@ function App() {
     <Router>
       <Routes>
       <Route path="/" element={<Dashboard />} />
-        <Route path='/view-bag' element={<CheckoutBagPage/>} />
+        {/* <Route path='/view-bag' element={<CheckoutBagPage/>} /> */}
         <Route path='/change-payment' element={<AddPayment/>} />
         <Route path='/add-address' element={<AddAddress/>} />
         <Route path='/view-bag' element={<CheckoutBagPage/>} />

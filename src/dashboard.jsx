@@ -234,7 +234,7 @@ function Dashboard() {
                         </div>
                         
                       
-                        <div className="Line"> </div>
+                        <div className="Lined"> </div>
     
      
                             
@@ -275,12 +275,9 @@ function Dashboard() {
                     <div className="button" >
                         <div className="icon">
                             <img src={whitebag} alt="" />
-                            {/* <div className="vector"> <img src={bag}alt="" /></div> */}
                         </div>
-                        <div className="buttonText" onClick={() => navigate('/checkoutBag')} >View Bag</div>
-                                    
-    
-                        
+                        <div className="buttonText" onClick={() => navigate('/view-bag')} >View Bag</div>
+
                     </div>
                 </div>
             </div>

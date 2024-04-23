@@ -11,9 +11,13 @@ import whiteiphone from './Assets/Name=Iphone-12-04.png'
 import dell from './Assets/Name=Dell-XPS-13-White.png'  
 import blueiphone from './Assets/Name=Iphone-12-Pro-02.png'
 import whitebag from './Assets/whitebag.png'
+import buttoncart from './Assets/Buttoncart.png'
+import back from './Assets/back.png'
+import { useNavigate } from "react-router-dom";
 
 const Items= () => {
-  
+  const navigate = useNavigate();
+
 
   return (
     <div className="Body">
@@ -23,7 +27,7 @@ const Items= () => {
                         <div className="NavLinksTop">
 
                             <div className="Logo">
-                                <img  src={logo} alt=''/>
+                                <img  src={logo} alt=''onClick={() => navigate('/')} />
                             </div>
 
                             <div className="MenuIcon">
@@ -31,11 +35,11 @@ const Items= () => {
                             </div>
 
                             <div className="NavLink">
-                            <img  src={home} alt=''/>
+                            <img  src={home} alt=''onClick={() => navigate('/')} />
                             </div>
 
 
-                            <img  src={bag} alt=''/>
+                            <img  src={bag} alt='' onClick={() => navigate('/view-bag')}/>
                               
                         </div>
 
@@ -46,7 +50,7 @@ const Items= () => {
 
                         </div>
 
-                        <div className="Line"></div>
+                        <div className="Linea"></div>
 
                         {/* itemview section */}
  
@@ -55,26 +59,35 @@ const Items= () => {
       <section className="item-view-inner">
         <div className="frame-parent">
           <div className="nav-link-wrapper">
-            <div className="nav-link">
-              <img className="icon" loading="lazy" alt="" src="/icon.svg" />
+            {/* <div className="nav-link"> */}
+              <img  loading="lazy" alt="" src={back} />
               <div className="link">Back</div>
-            </div>
+            {/* </div> */}
           </div>
           <div className="top-area-wrapper">
             <div className="top-area">
               <div className="image-area">
                 <div className="image-gallery">
-                  <div className="image-01">
+                
+                  {/* <div className="image-02">
                     <img
-                      className="product-image-icon"
+                      className="product-image-icon1"
+                      loading="lazy"
+                      alt=""
+                      src="/apple-watch.png"
+                    />
+                  </div> */}
+                  <div className="image-03">
+                    <img
+                      className="product-image-icon2"
                       loading="lazy"
                       alt=""
                       src="/apple-watch.png"
                     />
                   </div>
-                  <div className="image-02">
+                  <div className="image-03">
                     <img
-                      className="product-image-icon1"
+                      className="product-image-icon2"
                       loading="lazy"
                       alt=""
                       src="/apple-watch.png"
@@ -90,20 +103,32 @@ const Items= () => {
                   </div>
                 </div>
                 <div className="main-image">
-                  <img
-                    className="product-image-icon3"
-                    loading="lazy"
-                    alt=""
-                    src="/apple-watch.png"
-                  />
+                  <div className="image-01">
+                    <img
+                      className="product-image-icon"
+                      loading="lazy"
+                      alt=""
+                      src="/apple-watch.png"
+                    />
+                  </div>
                 </div>
+
+{/* <div className="image-01">
+                    <img
+                      className="product-image-icon"
+                      loading="lazy"
+                      alt=""
+                      src="/apple-watch.png"
+                    />
+                  </div> */}
               </div>
               <div className="text-content">
                 <div className="header">
                   <h1 className="apple-watch">Apple Watch</h1>
-                  <div className="series-5-se">Series 5 SE</div>
+                
                 </div>
-                <div className="special">
+                <div className="series-5-se">Series 5 SE</div>
+                {/* <div className="special"> */}
                   <div className="rating">
                     <img
                       className="star-01-icon"
@@ -137,7 +162,7 @@ const Items= () => {
                     />
                   </div>
                   <div className="div">4.5 / 5</div>
-                </div>
+                {/* </div> */}
                 <div className="div1">$ 529.99</div>
                 <div className="short-description">
                   <div className="para1">
@@ -150,7 +175,7 @@ const Items= () => {
                 </div>
                 <div className="cta">
                   <button className="button">
-                    <img className="icon1" alt="" src="/icon.svg" />
+                    <img className="icon1" alt="" src={buttoncart} />
                     <div className="button1">Add to Bag</div>
                   </button>
                 </div>
@@ -251,7 +276,7 @@ const Items= () => {
                         <img src={whitebag} alt="" />
                         {/* <div className="vector"> <img src={bag}alt="" /></div> */}
                     </div>
-                    <div className="buttonText" >View Bag</div>
+                    <div className="buttonText"  onClick={() => navigate('/view-bag')}>View Bag</div>
                 </div>
             </div>
         </div>

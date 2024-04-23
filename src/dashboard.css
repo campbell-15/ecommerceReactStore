@@ -367,12 +367,12 @@
 /* left nav */
 
 
-.Line {
+.Lined {
     width: 921.6px;
     height: 0px;
     position: absolute;
     top: 520px;
-    left: 650px;
+    left: 700px;
     border-top: 4px solid rgba(26, 31, 22, 0.50); 
     opacity: 1;
     transform: rotate(-90deg);
@@ -470,6 +470,7 @@
   background: #1A1F16;
   border-radius: 14px;
   overflow: hidden;
+  margin-right: 80px;
 }
 
 .icon {
