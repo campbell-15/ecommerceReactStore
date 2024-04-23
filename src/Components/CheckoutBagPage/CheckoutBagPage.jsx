@@ -360,7 +360,7 @@ const CheckoutBagPage = () => {
             </div>
 
             <div className="cta" >
-
+                <label>Bag Total: $ 5,849.93   </label>
                 <div className="button" >
 
                     <div className="icon">
