@@ -493,3 +493,12 @@ body {
   color: var(--ui-dark);
   font-family: var(--body-normal-medium-normal);
 }
+
+ 
+    .Label {
+        color: rgba(26, 31, 22, 0.50);
+        font-size: 16px;
+        font-family: Cabin;
+        font-weight: 400;
+        word-wrap: break-word;
+    }
