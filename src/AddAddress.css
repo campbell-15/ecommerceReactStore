@@ -29,7 +29,7 @@
         flex-direction: column;
         justify-content: left;
         align-items: left;
-        opacity: 0px;
+        /* opacity: 0px; */
     }
 
   
@@ -73,14 +73,14 @@
         height: 40px;
         padding: 8px 24px 8px 24px;
         gap: 8px;
-        opacity: 0px;
+        /* opacity: 0px; */
         padding-left: 24px;
         padding-right: 24px;
         padding-top: 8px;
         padding-bottom: 8px;
         background: #1A1F16;
         border-radius: 10px;
-        overflow: hidden;
+        /* overflow: hidden; */
         justify-content: center;
         align-items: center;
         display: inline-flex;
@@ -95,7 +95,7 @@
         width: 612px;
         height:  35px;
         gap: 0px;
-    opacity: 10px;
+    /* opacity: 10px; */
         justify-content: space-between;
         align-items: center;
         display: inline-flex;
@@ -107,7 +107,7 @@
         padding-top: 8px;
         padding-bottom: 8px;
         border-radius: 11px;
-        overflow: hidden;
+        /* overflow: hidden; */
         justify-content: center;
         align-items: center;
         gap: 8px;

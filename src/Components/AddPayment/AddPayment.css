@@ -101,9 +101,9 @@
         cursor: pointer;
     }
     
-    .add-payment-btn:hover {
+    /* .add-payment-btn:hover {
         opacity: 0.8;
-    }
+    } */
 
     .existing-cards {
         display: flex;
