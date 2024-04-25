@@ -64,7 +64,7 @@ body {
 .button {
   border-radius: 11px;
   border: 1px solid var(--ui-dark);
-  overflow: hidden;
+  /* overflow: hidden; */
   align-items: center;
   justify-content: center;
   padding: 8px 24px;
@@ -86,7 +86,7 @@ body {
 }
 .address-card,
 .icon {
-  overflow: hidden;
+  /* overflow: hidden; */
   flex-shrink: 0;
 }
 .address-card {
@@ -180,7 +180,7 @@ body {
 .button2 {
   border-radius: 11px;
   border: 1px solid var(--ui-dark);
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -208,7 +208,7 @@ body {
   width: 203.5px;
   position: relative;
   height: 254px;
-  overflow: hidden;
+  /* overflow: hidden; */
   flex-shrink: 0;
   object-fit: cover;
 }
@@ -281,7 +281,7 @@ body {
 .icon2 {
   width: 18px;
   height: 18px;
-  overflow: hidden;
+  /* overflow: hidden; */
   flex-shrink: 0;
 }
 .button4 {
@@ -344,7 +344,7 @@ body {
 }
 .item-in-bag {
   align-self: stretch;
-  overflow: hidden;
+  /* overflow: hidden; */
   flex-direction: row;
   padding: 16px 8px;
   gap: 16px;
@@ -406,7 +406,7 @@ body {
   left: 1207px;
   border-radius: 1px;
   border: 1px solid var(--ui-dark);
-  overflow: hidden;
+  /* overflow: hidden; */
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -453,7 +453,7 @@ body {
 }
 .button14,
 .total-summary {
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
 }
 .button14 {
