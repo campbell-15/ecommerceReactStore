@@ -377,6 +377,17 @@ body {
 
 }
 
+.Lined {
+    width: 921.6px;
+    height: 0px;
+    position: absolute;
+    top: 520px;
+    left: 620px;
+    border-top: 4px solid rgba(26, 31, 22, 0.50); 
+    opacity: 1;
+    transform: rotate(-90deg);
+}
+
  
 
  

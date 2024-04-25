@@ -295,7 +295,7 @@ const CheckoutBagPage = () => {
 
             </div>
 
-            <div className="Line"></div>
+            <div className="Lined"></div>
 
            <div className="BagArea" >
 
