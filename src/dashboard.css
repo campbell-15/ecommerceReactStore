@@ -372,7 +372,7 @@
     height: 0px;
     position: absolute;
     top: 520px;
-    left: 700px;
+    left: 620px;
     border-top: 4px solid rgba(26, 31, 22, 0.50); 
     opacity: 1;
     transform: rotate(-90deg);
@@ -391,7 +391,7 @@
   gap: 10px;
   position: absolute;
   top: 0;
-  right: 0; /* adjust this value as needed */
+  right: 0px; /* adjust this value as needed */
 }
 .Title {
   padding: 8px;
@@ -470,7 +470,7 @@
   background: #1A1F16;
   border-radius: 14px;
   overflow: hidden;
-  margin-right: 80px;
+  margin-right: 10px;
 }
 
 .icon {
