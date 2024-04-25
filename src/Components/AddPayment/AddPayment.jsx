@@ -20,7 +20,7 @@
             saveAsDefault: false
             });
         
-            const [existingCards, setExistingCards] = useState([
+            const [existingCards] = useState([
                 // Placeholder cards
                 {
                     cardholderName: 'John Doe',
@@ -47,29 +47,29 @@
             });
             };
         
-            const handleAddPayment = () => {
+            // const handleAddPayment = () => {
 
             // Create a new card object with the entered information
-            const newCard = {
-                cardNumber: cardInfo.cardNumber,
-                cardholderName: cardInfo.cardholderName,
-                expiryDate: cardInfo.expiryDate,
-                cvv: cardInfo.cvv,
-                saveAsDefault: cardInfo.saveAsDefault
-            };
+            // const newCard = {
+            //     cardNumber: cardInfo.cardNumber,
+            //     cardholderName: cardInfo.cardholderName,
+            //     expiryDate: cardInfo.expiryDate,
+            //     cvv: cardInfo.cvv,
+            //     saveAsDefault: cardInfo.saveAsDefault
+            // };
         
             // Add the new card to the existing cards list
-            setExistingCards([...existingCards, newCard]);
+            // setExistingCards([...existingCards, newCard]);
         
             // Reset the form fields after adding the new card
-            setCardInfo({
-                cardholderName: '',
-                cardNumber: '',
-                expiryDate: '',
-                cvv: '',
-                saveAsDefault: false
-            });
-            };
+            // setCardInfo({
+            //     cardholderName: '',
+            //     cardNumber: '',
+            //     expiryDate: '',
+            //     cvv: '',
+            //     saveAsDefault: false
+            // });
+            // };
         
             return (
             <div className="add-payment-container">

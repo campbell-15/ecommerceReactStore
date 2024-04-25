@@ -2,7 +2,7 @@ import React from 'react';
 import CheckoutBagPage from './Components/CheckoutBagPage/CheckoutBagPage';
 import AddPayment from './Components/AddPayment/AddPayment';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './App.css';
+// import './App.css';
 
 import Dashboard  from './dashboard';
 import AddAddress from './AddAddress';
