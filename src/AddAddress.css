@@ -28,7 +28,7 @@
         display: flex;
         flex-direction: column;
         justify-content: left;
-        align-items: left;
+        /* align-items: left; */
         /* opacity: 0px; */
     }
 
